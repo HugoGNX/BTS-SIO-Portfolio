@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio-Hugo-GANGNEUX</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Hugo GANGNEUX</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bts-sio.html">BTS SIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projets.html">Projets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="stages.html">Stages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="veille.html">Veille technologique</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="certifications.html">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav><main class="container py-5 mt-5">
+
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-light text-uppercase tracking-widest">Mission 3 – Application Congés</h1>
+        <div class="border-top border-primary border-4 w-25 mx-auto mb-3"></div>
+        <div class="d-flex justify-content-center gap-2 flex-wrap">
+            <span class="badge rounded-pill bg-warning bg-opacity-10 text-warning px-3 py-2">Mission 3</span>
+            <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2">Semaine 4 à 5</span>
+            <span class="badge rounded-pill bg-primary bg-opacity-10 text-primary px-3 py-2">Développement Django</span>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-lg-8 mx-auto">
+            <div class="border-start border-primary border-3 ps-4">
+                <h2 class="h5 fw-semibold mb-3">Contexte</h2>
+                <p class="text-secondary lh-lg">
+                    Les demandes d'absence étaient gérées via un formulaire papier circulant entre le salarié, le chef de service, le secrétariat et la direction générale. Ce processus manuel rendait le suivi difficile et ne permettait pas d'avoir une vision centralisée des absences. J'ai développé une application Django complète pour dématérialiser entièrement ce processus.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chiffres -->
+    <div class="row g-3 mb-5 text-center">
+        <div class="col-6 col-md-3">
+            <div class="card h-100 border-0 bg-light">
+                <div class="card-body py-4">
+                    <div class="display-6 fw-semibold text-warning">4</div>
+                    <div class="text-secondary small mt-1">Niveaux de validation</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card h-100 border-0 bg-light">
+                <div class="card-body py-4">
+                    <div class="display-6 fw-semibold text-warning">9</div>
+                    <div class="text-secondary small mt-1">Types d'absence</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card h-100 border-0 bg-light">
+                <div class="card-body py-4">
+                    <div class="display-6 fw-semibold text-warning">2</div>
+                    <div class="text-secondary small mt-1">Types de PDF générés</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card h-100 border-0 bg-light">
+                <div class="card-body py-4">
+                    <div class="display-6 fw-semibold text-warning">5</div>
+                    <div class="text-secondary small mt-1">Statuts de demande</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-5">
+        <div class="col-lg-6">
+            <div class="card h-100 border shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="h5 fw-semibold mb-4">
+                        <i class="bi bi-check2-square text-warning me-2"></i>Fonctionnalités développées
+                    </h2>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            1                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Workflow de validation à 4 niveaux</div>
+                            <div class="text-secondary" style="font-size:13px;">Circuit automatisé : Salarié → Chef → Secrétariat → DG, avec gestion des statuts et des refus à chaque étape.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            2                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Notifications email automatiques</div>
+                            <div class="text-secondary" style="font-size:13px;">Email HTML généré à chaque étape via le module core/emailing.py de l'intranet.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            3                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Génération PDF</div>
+                            <div class="text-secondary" style="font-size:13px;">Coupons d'autorisation et de refus générés dynamiquement avec pymupdf, envoyés par email et téléchargeables.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            4                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Calendrier FullCalendar</div>
+                            <div class="text-secondary" style="font-size:13px;">Vue interactive des absences approuvées pour les tableaux de bord Chef, Secrétariat et DG.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            5                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Calcul de durée</div>
+                            <div class="text-secondary" style="font-size:13px;">Fonction utils.py calculant automatiquement la durée en heures ou en jours ouvrés selon le type d'absence.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            6                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Vérification des chevauchements</div>
+                            <div class="text-secondary" style="font-size:13px;">Contrôle côté serveur dans clean() du formulaire pour éviter les demandes sur des périodes déjà prises.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            7                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Sécurisation anti-double soumission</div>
+                            <div class="text-secondary" style="font-size:13px;">Blocage des interactions via pointerEvents CSS au moment de la confirmation.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start ">
+                        <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            8                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Plan d'intégration authentification</div>
+                            <div class="text-secondary" style="font-size:13px;">Document technique en 9 étapes pour la future intégration du système de connexion de l'intranet.</div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card h-100 border shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="h5 fw-semibold mb-4">
+                        <i class="bi bi-tools text-warning me-2"></i>Technologies utilisées
+                    </h2>
+                    <p class="text-secondary small mb-2 text-uppercase fw-semibold" style="letter-spacing:.05em;">Back-end</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge border text-body fw-normal px-3 py-2">Python 3.12</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">Django</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">pymupdf</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">SQLite</span>
+                    </div>
+                    <p class="text-secondary small mb-2 text-uppercase fw-semibold" style="letter-spacing:.05em;">Front-end</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge border text-body fw-normal px-3 py-2">Bootstrap 5</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">JavaScript</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">FullCalendar</span>
+                    </div>
+                    <p class="text-secondary small mb-2 text-uppercase fw-semibold" style="letter-spacing:.05em;">Versionnage</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge border text-body fw-normal px-3 py-2">GitLab</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">Git (feature branch)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="card border shadow-sm mb-5">
+        <div class="card-body p-4">
+            <h2 class="h5 fw-semibold mb-4">
+                <i class="bi bi-file-earmark-text text-primary me-2"></i>Documents de la mission
+            </h2>
+                        <div class="d-flex align-items-center gap-3 pb-3 mb-3 border-bottom">
+                <div class="rounded-2 bg-success bg-opacity-10 d-flex align-items-center justify-content-center flex-shrink-0"
+                     style="width:40px;height:40px;">
+                    <i class="bi bi bi-clipboard-check-fill text-success fs-5"></i>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="fw-semibold" style="font-size:14px;">Cahier des charges</div>
+                    <div class="text-secondary" style="font-size:13px;">Spécifications complètes de l'application Congés</div>
+                </div>
+                <a href="assets/Sectronic/Mission3/Cahier_des_charges.pdf" target="_blank" class="btn btn-sm btn-outline-secondary">
+                    Voir <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+                        <div class="d-flex align-items-center gap-3 pb-3 mb-3 border-bottom">
+                <div class="rounded-2 bg-success bg-opacity-10 d-flex align-items-center justify-content-center flex-shrink-0"
+                     style="width:40px;height:40px;">
+                    <i class="bi bi bi-clipboard-check-fill text-success fs-5"></i>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="fw-semibold" style="font-size:14px;">Documentation de l'application</div>
+                    <div class="text-secondary" style="font-size:13px;"></div>
+                </div>
+                <a href="assets/Sectronic/Mission3/README.md" target="_blank" class="btn btn-sm btn-outline-secondary">
+                    Voir <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+                        <div class="d-flex align-items-center gap-3 pb-3 mb-3 border-bottom">
+                <div class="rounded-2 bg-danger bg-opacity-10 d-flex align-items-center justify-content-center flex-shrink-0"
+                     style="width:40px;height:40px;">
+                    <i class="bi bi-file-earmark-pdf text-danger fs-5"></i>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="fw-semibold" style="font-size:14px;">Documentation des bugs et des futurs modifications à faire</div>
+                    <div class="text-secondary" style="font-size:13px;"></div>
+                </div>
+                <a href="assets/Sectronic/Mission3/TODO.md" target="_blank" class="btn btn-sm btn-outline-secondary">
+                    Voir <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+                        <div class="d-flex align-items-center gap-3 ">
+                <div class="rounded-2 bg-danger bg-opacity-10 d-flex align-items-center justify-content-center flex-shrink-0"
+                     style="width:40px;height:40px;">
+                    <i class="bi bi-file-earmark-pdf text-danger fs-5"></i>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="fw-semibold" style="font-size:14px;">DOcumentation pour le passage avec authentification</div>
+                    <div class="text-secondary" style="font-size:13px;"></div>
+                </div>
+                <a href="assets/Sectronic/Mission3/Passage_authentification.md" target="_blank" class="btn btn-sm btn-outline-secondary">
+                    Voir <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+                    </div>
+    </div>
+
+    <div class="card border shadow-sm mb-5">
+        <div class="card-body p-4">
+            <h2 class="h5 fw-semibold mb-4">
+                <i class="bi bi-image text-primary me-2"></i>Aperçus
+            </h2>
+            <div class="row g-3">
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/accueil.png" alt="Page d'accueil"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page d'accueil</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page d'accueil</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/Formulaire.png" alt="Formulaire d'une demande d'absence"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Formulaire d'une demande d'absence</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Formulaire d'une demande d'absence</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/confirmation_demande.png" alt="Message de confirmation de la demande"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Message de confirmation de la demande</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Message de confirmation de la demande</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/confirmation annulation demande.png" alt="Message de confirmation d'annulation de la demande"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Message de confirmation d'annulation de la demande</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Message de confirmation d'annulation de la demande</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/accueil chef.png" alt="Page pour le chef de service, le secretariat ou la DIrection Générale"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page pour le chef de service, le secretariat ou la DIrection Générale</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page pour le chef de service, le secretariat ou la DIrection Générale</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/validation absence.png" alt="Page de validation d'une demande d'absence"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page de validation d'une demande d'absence</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page de validation d'une demande d'absence</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/formulaire refus absence.png" alt="Page de refus d'une demande d'absence"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page de refus d'une demande d'absence</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page de refus d'une demande d'absence</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/mail approbation demande.png" alt="Mail envoyé au salarié pour l'approbation de sa demande"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Mail envoyé au salarié pour l'approbation de sa demande</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Mail envoyé au salarié pour l'approbation de sa demande</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/mail_notification_demande.png" alt="Mail envoyé à la personne en charges de répondre à la demande"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Mail envoyé à la personne en charges de répondre à la demande</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Mail envoyé à la personne en charges de répondre à la demande</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/PDF confirmation demande.png" alt="PDF bandeau de confirmation d'une absence"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>PDF bandeau de confirmation d'une absence</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">PDF bandeau de confirmation d'une absence</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/PDF absence refusé.png" alt="PDF bandeau de refus d'une absence"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>PDF bandeau de refus d'une absence</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">PDF bandeau de refus d'une absence</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/approuvé chef.png" alt="Page d'accueil du chef de service, du secretariat ou de la direction générale avec les demandes approuvées"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page d'accueil du chef de service, du secretariat ou de la direction générale avec les demandes approuvées</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page d'accueil du chef de service, du secretariat ou de la direction générale avec les demandes approuvées</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/Detail_demande_encours.png" alt="Page de détail d'une demande en cours"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page de détail d'une demande en cours</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page de détail d'une demande en cours</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/Detail_demande_valide.png" alt="Page de détail d'une demande validée"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page de détail d'une demande validée</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page de détail d'une demande validée</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/Detail_demande_refusee.png" alt="Page de détail d'une demande refusée"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page de détail d'une demande refusée</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page de détail d'une demande refusée</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/calendrier.png" alt="Calendrier FullCalendar des absences validées"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Calendrier FullCalendar des absences validées</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Calendrier FullCalendar des absences validées</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/fichiers.png" alt="Structure de l'application"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Structure de l'application</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Structure de l'application</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission3/gitLab.png" alt="Gitlab versionning"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Gitlab versionning</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Gitlab versionning</p>
+                </div>
+                            </div>
+        </div>
+    </div>
+
+    <div class="d-flex gap-3 mt-2">
+        <a href="stage-sectronic.html" class="btn btn-outline-primary shadow-sm">
+            ← Retour au stage SECTRONIC
+        </a>
+    </div>
+
+</main><footer class='text-center'>
+    <p>&copy; GANGNEUX Hugo - 2026</p>
+
+</footer>        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,348 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="stmaure_v3" name="Schéma Réseau St-Maure v3">
+    <mxGraphModel dx="1031" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#1a1a2e;" value="Schéma des Baies Réseau — St-Maure-de-Touraine" vertex="1">
+          <mxGeometry height="45" width="2260" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_frame" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;" value="LÉGENDE" vertex="1">
+          <mxGeometry height="50" width="1010" x="30" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_ups" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;arcSize=5;" value="⚡ Alimentation / UPS" vertex="1">
+          <mxGeometry height="28" width="145" x="40" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_net" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=5;" value="🔀 Réseau / Switch / Routeur" vertex="1">
+          <mxGeometry height="28" width="165" x="193" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_fw" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;arcSize=5;" value="🛡 Sécurité / Firewall" vertex="1">
+          <mxGeometry height="28" width="145" x="366" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_srv" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;arcSize=5;" value="🖥 Serveurs / Hyperviseurs" vertex="1">
+          <mxGeometry height="28" width="165" x="519" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_patch" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=5;" value="🔌 Bandeau de brassage" vertex="1">
+          <mxGeometry height="28" width="150" x="692" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_tel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;arcSize=5;" value="📞 Téléphonie / DECT" vertex="1">
+          <mxGeometry height="28" width="130" x="850" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_nas" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;arcSize=5;" value="💾 NAS / Stockage" vertex="1">
+          <mxGeometry height="28" width="120" x="988" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="baie1_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EBF3FB;strokeColor=#2980B9;fontSize=14;fontStyle=1;verticalAlign=top;arcSize=2;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="1490" width="1150" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="baie1_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a5276;" value="BAIE 1 — Équipements Réseau &amp; Téléphonie" vertex="1">
+          <mxGeometry height="30" width="1150" x="30" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="sec1_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6EAF8;strokeColor=#2980B9;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="310" width="550" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sec1_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" value="▶ Arrivée Fibre / Accès WAN" vertex="1">
+          <mxGeometry height="22" width="550" x="40" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_raisecom" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°19] Routeur FTTE&lt;/b&gt;&lt;br&gt;Raisecom RAX701-GC-WP (Gamme RAX700)&lt;br&gt;S/N : 123002025414S20817S0006G | MAC : A8:6D:5F:0A:26:F2&lt;br&gt;FTTE-ALPHALINK-SECTRONIC-ST MAURE DE TOURAINE" vertex="1">
+          <mxGeometry height="68" width="520" x="55" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_ont" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°20] MOD FIX ONT ALTLAB — ONT Fibre Optique (FTTH)&lt;/b&gt;&lt;br&gt;Altice Labs GS0100GH | S/N : PTINA89366F6 | MAC : CC:19:A8:93:66:F6&lt;br&gt;INPUT 12V/1A — Voyants : EQPT / PON / MGNT / LAN" vertex="1">
+          <mxGeometry height="62" width="520" x="55" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_mik1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°17] Routeur MikroTik #1&lt;/b&gt;&lt;br&gt;MikroTik hEX RB750Gr3 | S/N : HE208RTMJH0/302/r4&lt;br&gt;IP LAN : 130.93.51.117/31 | IP Pub : 130.93.51.116/31&lt;br&gt;MAC E01 : 48:A9:8A:42:10:6A | E05 : 48:A9:8A:42:10:6E&lt;br&gt;LAN1→Fibre | LAN2→FW CLIENT | LAN4→4G Secours | LAN5→Maint." vertex="1">
+          <mxGeometry height="75" width="520" x="55" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_mik2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°18] Routeur MikroTik #2&lt;/b&gt;&lt;br&gt;MikroTik hEX RB750Gr3 | S/N : HE208HQWP9G/302/r4&lt;br&gt;IP LAN : 130.93.145.141/31 | IP Pub : 130.93.145.140/31&lt;br&gt;MAC E01 : 48:A9:8A:42:21:B7 | E05 : 48:A9:8A:42:21:BB&lt;br&gt;LAN1→Fibre | LAN2→FW CLIENT | LAN4→4G Secours | LAN5→Maint." vertex="1">
+          <mxGeometry height="75" width="520" x="55" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="sec2_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8DAEF;strokeColor=#9673a6;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="220" width="550" x="40" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="sec2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" value="▶ Sécurité &amp; Distribution LAN" vertex="1">
+          <mxGeometry height="22" width="550" x="40" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_fw" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°23] Pare-feu / Firewall UTM&lt;/b&gt;&lt;br&gt;Stormshield SN-S-SERIES (SNSS-XA10A-101) | S/N : SNSS1A13B0310A7&lt;br&gt;Ports 1,2,3,4 : verts actifs — POWER 1 : orange allumé" vertex="1">
+          <mxGeometry height="62" width="520" x="55" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_edge" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°24] Routeur Ubiquiti EdgeRouter 12 (ER-12)&lt;/b&gt;&lt;br&gt;S/N : 2412K E438838C9A95-MQP6OM | 9 ports RJ45 + 2 SFP + 1 port console&lt;br&gt;Câbles sur PoE IN, PoE OUT, ports RJ45 2 et 3" vertex="1">
+          <mxGeometry height="62" width="520" x="55" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_zyxel_sw" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°26] Switch PoE Manageable 5 ports — Zyxel GS1200-5HP v2&lt;/b&gt;&lt;br&gt;S/N : S214347002486 | MAC : 98:0D:67:FC:48:80 | IP déf. : 192.168.1.3&lt;br&gt;5 ports GbE — PoE — 55V/1.3A — &lt;font color=&quot;#CC0000&quot;&gt;⚠ IP par défaut, à vérifier (conflit potentiel avec GPAO 192.168.1.3)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="62" width="520" x="55" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_divers_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F3F4;strokeColor=#7F8C8D;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="150" width="550" x="40" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_divers_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2C3E50;" value="▶ Accès réseau divers" vertex="1">
+          <mxGeometry height="22" width="550" x="40" y="763" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_seh" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°21] Serveur USB Réseau — SEH myUTN-80&lt;/b&gt;&lt;br&gt;S/N : 28220180100078 | MAC : 00:C0:EB:10:57:82&lt;br&gt;8 ports USB / 1 port RJ45 — Hardware Version 2.0" vertex="1">
+          <mxGeometry height="58" width="520" x="55" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_wifi" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°22] Borne Wi-Fi 6 (Point d&#39;accès) — Zyxel NWA110AX&lt;/b&gt;&lt;br&gt;S/N : S212L33104246 | MAC : D8:EC:E5:6D:D4:22 | SSID : WIFI_SECTRO&lt;br&gt;Wi-Fi 6 (802.11ax) — Dual Band — PoE" vertex="1">
+          <mxGeometry height="58" width="520" x="55" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="sec3_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#d79b00;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="160" width="550" x="40" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="sec3_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#7d6608;" value="▶ Téléphonie" vertex="1">
+          <mxGeometry height="22" width="550" x="40" y="928" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_ipbx" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°25] IPBX / Autocommutateur — Alcatel-Lucent OmniPCX Enterprise&lt;/b&gt;&lt;br&gt;CPU : F1965830 / D0809FT47D5A&lt;br&gt;Port LAN branché — SLOT 1 Digital : câbles sur 1,3,4 | SLOT 3 Digital : câbles sur 1,3" vertex="1">
+          <mxGeometry height="58" width="520" x="55" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_dect" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°16] Borne DECT Indoor — Alcatel-Lucent OmniPCX Enterprise 4070iO&lt;/b&gt;&lt;br&gt;Borne DECT indoor — gestion des téléphones sans fil de l&#39;usine" vertex="1">
+          <mxGeometry height="50" width="520" x="55" y="1023" as="geometry" />
+        </mxCell>
+        <mxCell id="sec4_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#d6b656;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="75" width="550" x="40" y="1095" as="geometry" />
+        </mxCell>
+        <mxCell id="sec4_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#7d6608;" value="▶ Alimentation" vertex="1">
+          <mxGeometry height="22" width="550" x="40" y="1098" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_ups" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°27] Onduleur / UPS Rack — Eaton 5PX2200IRT3UG2&lt;/b&gt;&lt;br&gt;S/N : GF23R01007 — 2200VA/2200W — Format 3U rack — Entrée 200-240V/16A" vertex="1">
+          <mxGeometry height="40" width="520" x="55" y="1122" as="geometry" />
+        </mxCell>
+        <mxCell id="sec5_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDFEFE;strokeColor=#2980B9;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="990" width="555" x="610" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sec5_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" value="▶ Panneaux de brassage &amp; Switches (ordre rack de haut en bas)" vertex="1">
+          <mxGeometry height="22" width="555" x="610" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°1] Bandeau de brassage A&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_sw4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°2] Switch 4 — Aruba Instant On 1960&lt;/b&gt;&lt;br&gt;S/N : CN30KY82LC | MAC : 38:BD:7A:D4:2D:40 | P/N : JL809-60001&lt;br&gt;SFP+ (liaisons optiques) côté droit — câble noir" vertex="1">
+          <mxGeometry height="50" width="525" x="625" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pB" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°3] Bandeau de brassage B&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°4] Bandeau de brassage C&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_sw3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°5] Switch 3 — Aruba Instant On 1960&lt;/b&gt;&lt;br&gt;S/N : CN30KY82DC | MAC : 38:BD:7A:D4:78:40 | P/N : JL809-60001&lt;br&gt;SFP+ câbles turquoise/vert clair" vertex="1">
+          <mxGeometry height="50" width="525" x="625" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pD" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°6] Bandeau de brassage D&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pE" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°7] Bandeau de brassage E&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports — ⚠ câble violet" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_sw2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°8] Switch 2 — Aruba Instant On 1960&lt;/b&gt;&lt;br&gt;S/N : CN30KY82LF | MAC : 38:BD:7A:D4:2D:C0 | P/N : JL809-60001&lt;br&gt;SFP+ câbles turquoise/vert clair" vertex="1">
+          <mxGeometry height="50" width="525" x="625" y="546" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pF" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°9] Bandeau de brassage F&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pG" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°10] Bandeau de brassage G&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports — ⚠ câble rose fluo" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_sw5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°11] Switch 5 — Aruba Instant On 1960&lt;/b&gt;&lt;br&gt;S/N : CN39KY8155 | HMB179 | MAC : A4:0E:75:9E:C0:80 | P/N : JL809-60001&lt;br&gt;SFP+ câbles turquoise/vert clair — Immo : 28/06/2024" vertex="1">
+          <mxGeometry height="50" width="525" x="625" y="692" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pH" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°12] Bandeau de brassage H&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pI" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°13] Bandeau de brassage I&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="794" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_sw_last" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°14] Switch (le + récent) — Aruba Instant On 1960&lt;/b&gt;&lt;br&gt;S/N : CN58KY80F9 | HMB191 | MAC : 38:BD:7A:DE:BD:80 | P/N : JL809-60001&lt;br&gt;Immo : 25/02/2026" vertex="1">
+          <mxGeometry height="50" width="525" x="625" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_pJ" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°15] Bandeau de brassage J&lt;/b&gt; — Leviton/Gigamedia Cat6/Cat-A — 24 ports" vertex="1">
+          <mxGeometry height="36" width="525" x="625" y="896" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ont_raisecom" edge="1" parent="1" source="b1_ont" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#b85450;strokeWidth=2;dashed=1;fontSize=9;endArrow=block;endFill=1;" target="b1_raisecom" value="Fibre optique (FTTH)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_raisecom_mik1" edge="1" parent="1" source="b1_raisecom" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2980B9;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b1_mik1" value="LAN1 → Fibre">
+          <mxGeometry relative="1" x="-0.4634" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_raisecom_mik2" edge="1" parent="1" source="b1_raisecom" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2980B9;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b1_mik2" value="LAN1 → Fibre">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mik1_fw" edge="1" parent="1" source="b1_mik1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#9673a6;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b1_fw" value="LAN2 → FW CLIENT">
+          <mxGeometry relative="1" x="-0.5935" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_mik2_fw" edge="1" parent="1" source="b1_mik2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#9673a6;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b1_fw" value="LAN2 → FW CLIENT">
+          <mxGeometry relative="1" x="-0.4737" y="15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_fw_edge" edge="1" parent="1" source="b1_fw" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1a8754;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b1_edge" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_edge_zyxel" edge="1" parent="1" source="b1_edge" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1a8754;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b1_zyxel_sw" value="PoE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_zyxel_wifi" edge="1" parent="1" source="b1_zyxel_sw" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#555555;strokeWidth=1;dashed=1;fontSize=9;endArrow=block;endFill=1;" target="b1_wifi" value="PoE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_zyxel_ipbx" edge="1" parent="1" source="b1_zyxel_sw" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#d79b00;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b1_ipbx" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ipbx_dect" edge="1" parent="1" source="b1_ipbx" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#d79b00;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b1_dect" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_edge_sw4" edge="1" parent="1" source="b1_edge" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1a8754;strokeWidth=2;dashed=1;fontSize=9;endArrow=block;endFill=1;" target="b1_sw4" value="Distribution LAN">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="660" />
+              <mxPoint x="605" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="baie2_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAFAF1;strokeColor=#1e8449;fontSize=14;fontStyle=1;verticalAlign=top;arcSize=2;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="1490" width="1090" x="1210" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="baie2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1e5631;" value="BAIE 2 — Serveurs &amp; Stockage" vertex="1">
+          <mxGeometry height="30" width="1090" x="1210" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_sw_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5F5E3;strokeColor=#1e8449;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="175" width="1060" x="1220" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_sw_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1e5631;" value="▶ Switching" vertex="1">
+          <mxGeometry height="22" width="1060" x="1220" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_netgear" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°2] Switch Manageable 24 ports — Netgear GS724T (ProSafe)&lt;/b&gt;&lt;br&gt;S/N : 3H06875W01380 | MAC : 78:D2:94:BA:34:7D | IP déf. : 192.168.0.239&lt;br&gt;24 ports GbE + 2 SFP — Smart Switch" vertex="1">
+          <mxGeometry height="62" width="505" x="1235" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="EmsIpufMkAWI9V24bk8K-2" edge="1" parent="1" source="b2_aruba_sw06" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sec_b2_sw_bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_aruba_sw06" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°9] Switch 06 — Aruba Instant On 1960&lt;/b&gt;&lt;br&gt;S/N : CN48KY815Q | MAC : 38:BD:7A:D9:1D:C0 | P/N : NOL 184552010A&lt;br&gt;3 câbles sur VLAN INFRA — 2 câbles sur VLAN VM" vertex="1">
+          <mxGeometry height="62" width="505" x="1760" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_sw06_note" parent="1" style="text;html=1;strokeColor=none;fillColor=#D5F5E3;fontSize=9;fontStyle=2;align=center;" value="⇐ Le Switch 06 assure la segmentation VLAN Infra / VM dans la Baie 2" vertex="1">
+          <mxGeometry height="18" width="1060" x="1220" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_srv_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6EAF8;strokeColor=#2980B9;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="180" width="1060" x="1220" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_srv_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" value="▶ Serveurs physiques" vertex="1">
+          <mxGeometry height="22" width="1060" x="1220" y="371" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_dell" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°1] Serveur physique — Dell PowerEdge T310&lt;/b&gt;&lt;br&gt;S/N : 46ZJX4J | HMB : MINER-0005 | IP : 192.168.1.230&lt;br&gt;OS : Windows Server 2008 R2 Std (1-4 CPU, 5 CAL)&lt;br&gt;Clés physique et virtuel sur l&#39;étiquette — Immo : 10/11/2010" vertex="1">
+          <mxGeometry height="68" width="505" x="1235" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_hpe" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°8] Serveur Rack — HPE ProLiant&lt;/b&gt;&lt;br&gt;HMB : HMB143 | IP : 192.168.1.3 | Nom DNS : GPAO&lt;br&gt;OS : Windows Server 2016 STD ROK (16 Core) — Clé produit sur l&#39;étiquette&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;⚠ IP 192.168.1.3 identique à l&#39;IP par défaut du Zyxel GS1200-5HP (Baie 1, N°26) — à vérifier&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="505" x="1760" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_minipc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°5] Mini PC / Thin Client — Chip PC Technologies CUBEX S (CGA07341)&lt;/b&gt;&lt;br&gt;S/N : CSN-00484144 | HMB : SEC073 | MAC : 00:05:35:CD:F6:8B&lt;br&gt;Voyant rouge allumé (alimentation) — Port USB avec LED bleue active" vertex="1">
+          <mxGeometry height="58" width="505" x="1235" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_hyp_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1A5276;" value="▶ Hyperviseurs &amp; Baie de stockage SAN" vertex="1">
+          <mxGeometry height="22" width="1060" x="1220" y="561" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_r660xs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1A5276;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°10] Serveur rack / Hyperviseur — Dell PowerEdge R660xs&lt;/b&gt;&lt;br&gt;Nom DNS : SRVSEC-SM-HYPERV&lt;br&gt;OS : Microsoft Hyper-V — Gen 16&lt;br&gt;Installateur : AXN Informatique — Héberge des machines virtuelles" vertex="1">
+          <mxGeometry height="72" width="340" x="1235" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_r440" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1A5276;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°13] Serveur rack / Hyperviseur — Dell EMC PowerEdge R440&lt;/b&gt;&lt;br&gt;S/N : B831133 | HMB : SRV00988 | MAC : 4C:D9:8F:C4:FD:A9&lt;br&gt;Nom DNS : SRV-HYPERV2&lt;br&gt;OS : Microsoft Hyper-V — Installateur : AXN Informatique" vertex="1">
+          <mxGeometry height="72" width="340" x="1595" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_powervault" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6DBDF;strokeColor=#1A5276;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°11] Baie de stockage SAN/DAS — Dell EMC PowerVault&lt;/b&gt;&lt;br&gt;HMB : HMB188 | PN ctrl : RX6XW | Immo : 23/08/2025&lt;br&gt;MAC ctrl A : 00:C0:FF:FE:67:C7 | MAC ctrl B : 00:C0:FF:FE:87:B2&lt;br&gt;2 contrôleurs redondants — Ports 12 Gb/s SAS (DP-3) — Port RJ45 management (ACT) — Voyant CACHE vert" vertex="1">
+          <mxGeometry height="72" width="340" x="1925" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_nas_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#d6b656;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="350" width="1060" x="1220" y="773" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_nas_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#7d6608;" value="▶ NAS / Stockage Réseau" vertex="1">
+          <mxGeometry height="22" width="1060" x="1220" y="776" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_qnap1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°3] NAS — QNAP TS-453A&lt;/b&gt;&lt;br&gt;HMB : HMB154 | IP : 192.168.1.101 | DNS : QNAS101&lt;br&gt;CPU : Intel Celeron Quad-Core 1.6GHz — AES-NI — OS : QTS-Linux Combo NAS&lt;br&gt;Statut : Vert | LAN : Orange (activité réseau) — Immo : 27/05/2021" vertex="1">
+          <mxGeometry height="75" width="505" x="1235" y="803" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_qnap2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°4] NAS — QNAP TS-x53D&lt;/b&gt;&lt;br&gt;IP : 192.168.1.56 | 2 x ports 2.5G/1G LAN | 1 slot PCIe Gen 2&lt;br&gt;Sortie HDMI — 2 ports USB (dont USB 3.0 bleu)&lt;br&gt;2 câbles RJ45 branchés, voyants orange actifs" vertex="1">
+          <mxGeometry height="75" width="505" x="1760" y="803" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_qnap3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°6] NAS Rack 1U — QNAP TS-4xx (modèle exact à confirmer)&lt;/b&gt;&lt;br&gt;S/N : Q206B26212 | Cloud Key : Q5437-5526&lt;br&gt;MAC1 : 24:5E:BE:3F:04:26 / MAC2 : :27 / MAC3 : :28 — 3 ports réseau&lt;br&gt;HDD 1-4 : verts | LAN1 : orange | LAN2 : vert | SSD cache : vert | Info : vert" vertex="1">
+          <mxGeometry height="75" width="505" x="1235" y="893" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_qnap4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°7] NAS Rack — QNAP TS-432PXU-RP&lt;/b&gt;&lt;br&gt;S/N : Q211I04088M | P/N : 524006-QG7010-00-RS&lt;br&gt;MAC1 : 24:5E:BE:57:E9:4B / :4C / :4D / :4E — 4 ports réseau&lt;br&gt;4 baies HDD — 2 alim. redondantes — OS : Windows Server 2016 STD (ROK)&lt;br&gt;HDD 1-4 : verts | LAN : rouge/orange (activité) | Info : vert" vertex="1">
+          <mxGeometry height="82" width="505" x="1760" y="893" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_nas_note" parent="1" style="text;html=1;strokeColor=none;fillColor=#FEF9E7;fontSize=9;fontStyle=2;align=center;" value="Les 4 NAS sont connectés au switch Netgear GS724T via RJ45" vertex="1">
+          <mxGeometry height="18" width="1060" x="1220" y="983" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_bkp_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FADBD8;strokeColor=#C0392B;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="95" width="1060" x="1220" y="1133" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_bkp_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#922B21;" value="▶ Sauvegarde" vertex="1">
+          <mxGeometry height="22" width="1060" x="1220" y="1136" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_beemo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1948A;strokeColor=#C0392B;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°14] Appliance de sauvegarde — Beemo&lt;/b&gt;&lt;br&gt;Référence : 6606020860 | HMB / Étiquette : BOX01067&lt;br&gt;Rack 2U — Interface LCD — Disques multiples en façade — Appliance backup dédiée" vertex="1">
+          <mxGeometry height="62" width="1030" x="1235" y="1162" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_ups_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#d6b656;fontSize=11;fontStyle=1;verticalAlign=top;arcSize=3;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="85" width="1060" x="1220" y="1238" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b2_ups_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#7d6608;" value="▶ Alimentation" vertex="1">
+          <mxGeometry height="22" width="1060" x="1220" y="1241" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_ups" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;arcSize=3;align=left;spacingLeft=6;" value="&lt;b&gt;[N°12] Onduleur / UPS Rack — Eaton 5PX2200IRT3UG2&lt;/b&gt;&lt;br&gt;S/N : GF24R51031 | HMB : HMB180 | 2200VA/2200W — Format 3U rack — Entrée 200-240V/16A&lt;br&gt;Batterie ext. compatible : 5PXEBM72RT3UG2 — Immo : 28/06/2024 — Écran LCD allumé" vertex="1">
+          <mxGeometry height="55" width="1030" x="1235" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ng_dell" edge="1" parent="1" source="b2_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b2_dell" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ng_hpe" edge="1" parent="1" source="b2_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b2_hpe" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2013" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_ng_minipc" edge="1" parent="1" source="b2_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#555555;strokeWidth=1;dashed=1;fontSize=9;endArrow=block;endFill=1;" target="b2_minipc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ng_qnap1" edge="1" parent="1" source="b2_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#d6b656;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b2_qnap1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ng_qnap2" edge="1" parent="1" source="b2_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#d6b656;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b2_qnap2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2020" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_ng_qnap3" edge="1" parent="1" source="b2_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#d6b656;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b2_qnap3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ng_qnap4" edge="1" parent="1" source="b2_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#d6b656;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b2_qnap4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2020" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_sw06_r660xs" edge="1" parent="1" source="b2_aruba_sw06" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1A5276;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b2_r660xs" value="VLAN INFRA / VM">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1405" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_sw06_r440" edge="1" parent="1" source="b2_aruba_sw06" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1A5276;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b2_r440" value="VLAN INFRA / VM">
+          <mxGeometry relative="1" x="-0.0043" y="28" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_r660xs_pv" edge="1" parent="1" source="b2_r660xs" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#566573;strokeWidth=2;dashed=1;fontSize=9;endArrow=block;endFill=1;" target="b2_powervault" value="12 Gb/s SAS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_r440_pv" edge="1" parent="1" source="b2_r440" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#566573;strokeWidth=2;dashed=1;fontSize=9;endArrow=block;endFill=1;" target="b2_powervault" value="12 Gb/s SAS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ng_beemo" edge="1" parent="1" source="b2_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#C0392B;strokeWidth=2;fontSize=9;endArrow=block;endFill=1;" target="b2_beemo" value="Backup">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

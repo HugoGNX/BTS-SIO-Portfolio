@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio-Hugo-GANGNEUX</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Hugo GANGNEUX</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bts-sio.html">BTS SIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projets.html">Projets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="stages.html">Stages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="veille.html">Veille technologique</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="certifications.html">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav><main class="container py-5 mt-5">
+
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-light text-uppercase tracking-widest">Mission 2 – Application Visiteur</h1>
+        <div class="border-top border-primary border-4 w-25 mx-auto mb-3"></div>
+        <div class="d-flex justify-content-center gap-2 flex-wrap">
+            <span class="badge rounded-pill bg-success bg-opacity-10 text-success px-3 py-2">Mission 2</span>
+            <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2">Semaines 2 à 4</span>
+            <span class="badge rounded-pill bg-primary bg-opacity-10 text-primary px-3 py-2">Développement Django</span>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-lg-8 mx-auto">
+            <div class="border-start border-primary border-3 ps-4">
+                <h2 class="h5 fw-semibold mb-3">Contexte</h2>
+                <p class="text-secondary lh-lg">
+                    L'enregistrement des visiteurs était réalisé sur un registre papier à l'accueil de chaque site. Cette méthode ne permettait pas de connaître en temps réel les personnes présentes, ce qui posait problème en cas d'évacuation d'urgence. J'ai développé une application web Django, intégrée à l'intranet, accessible depuis une tablette Android en mode kiosque.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chiffres -->
+    <div class="row g-3 mb-5 text-center">
+        <div class="col-6 col-md-3">
+            <div class="card h-100 border-0 bg-light">
+                <div class="card-body py-4">
+                    <div class="display-6 fw-semibold text-success">2</div>
+                    <div class="text-secondary small mt-1">Modèles Django</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card h-100 border-0 bg-light">
+                <div class="card-body py-4">
+                    <div class="display-6 fw-semibold text-success">7</div>
+                    <div class="text-secondary small mt-1">Tests unitaires</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card h-100 border-0 bg-light">
+                <div class="card-body py-4">
+                    <div class="display-6 fw-semibold text-success">Multi</div>
+                    <div class="text-secondary small mt-1">Gestion multi-sites</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card h-100 border-0 bg-light">
+                <div class="card-body py-4">
+                    <div class="display-6 fw-semibold text-success">23h59</div>
+                    <div class="text-secondary small mt-1">Job automatique</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-5">
+        <div class="col-lg-6">
+            <div class="card h-100 border shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="h5 fw-semibold mb-4">
+                        <i class="bi bi-check2-square text-success me-2"></i>Fonctionnalités développées
+                    </h2>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-success bg-opacity-10 text-success d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            1                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Enregistrement des visiteurs</div>
+                            <div class="text-secondary" style="font-size:13px;">Formulaire ModelForm avec normalisation automatique de la casse et association au site via l'URL (SlugField).</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-success bg-opacity-10 text-success d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            2                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Consignes de sécurité & QR Code</div>
+                            <div class="text-secondary" style="font-size:13px;">Affichage des consignes adaptées au site, QR Code généré côté serveur (bibliothèque qrcode) en base64.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-success bg-opacity-10 text-success d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            3                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Signature électronique</div>
+                            <div class="text-secondary" style="font-size:13px;">Intégration de signature_pad.js, stockage en base64, vérification côté serveur et côté client.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-success bg-opacity-10 text-success d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            4                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Mode groupe</div>
+                            <div class="text-secondary" style="font-size:13px;">Pré-remplissage de la société et de l'hôte pour accélérer l'enregistrement de plusieurs visiteurs d'une même société.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-success bg-opacity-10 text-success d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            5                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Gestion des départs</div>
+                            <div class="text-secondary" style="font-size:13px;">Vue protégée par @require_POST avec double vérification site + visiteur pour éviter les sorties croisées.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-success bg-opacity-10 text-success d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            6                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Job automatique à 23h59</div>
+                            <div class="text-secondary" style="font-size:13px;">Fermeture automatique des visites oubliées avec indicateur sortie_auto.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-success bg-opacity-10 text-success d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            7                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Page d'évacuation</div>
+                            <div class="text-secondary" style="font-size:13px;">Liste en temps réel des visiteurs + salariés présents via l'API Kelio, résistante aux indisponibilités.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start ">
+                        <div class="rounded-circle bg-success bg-opacity-10 text-success d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            8                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Historique administrateur</div>
+                            <div class="text-secondary" style="font-size:13px;">Filtres multi-critères, lignes cliquables, page de détail avec restauration automatique des filtres.</div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card h-100 border shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="h5 fw-semibold mb-4">
+                        <i class="bi bi-tools text-success me-2"></i>Technologies utilisées
+                    </h2>
+                    <p class="text-secondary small mb-2 text-uppercase fw-semibold" style="letter-spacing:.05em;">Back-end</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge border text-body fw-normal px-3 py-2">Python 3.12</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">Django</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">SQLite</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">API Kelio</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">qrcode</span>
+                    </div>
+                    <p class="text-secondary small mb-2 text-uppercase fw-semibold" style="letter-spacing:.05em;">Front-end</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge border text-body fw-normal px-3 py-2">Bootstrap 5</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">JavaScript</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">signature_pad.js</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">HTML</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">css</span>
+
+                    </div>
+                    <p class="text-secondary small mb-2 text-uppercase fw-semibold" style="letter-spacing:.05em;">Versionnage</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge border text-body fw-normal px-3 py-2">GitLab</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">Git (feature branch)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card border shadow-sm mb-5">
+        <div class="card-body p-4">
+            <h2 class="h5 fw-semibold mb-4">
+                <i class="bi bi-file-earmark-text text-primary me-2"></i>Documents de la mission
+            </h2>
+                        <div class="d-flex align-items-center gap-3 pb-3 mb-3 border-bottom">
+                <div class="rounded-2 bg-success bg-opacity-10 d-flex align-items-center justify-content-center flex-shrink-0"
+                     style="width:40px;height:40px;">
+                    <i class="bi bi bi-clipboard-check-fill text-success fs-5"></i>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="fw-semibold" style="font-size:14px;">Cahier des chargess du projet</div>
+                    <div class="text-secondary" style="font-size:13px;">Toutes les étapes qui étaient à suivres</div>
+                </div>
+                <a href="assets/Sectronic/Mission2/TODO_VISITEUR.md" target="_blank" class="btn btn-sm btn-outline-secondary">
+                    Voir <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+                        <div class="d-flex align-items-center gap-3 pb-3 mb-3 border-bottom">
+                <div class="rounded-2 bg-danger bg-opacity-10 d-flex align-items-center justify-content-center flex-shrink-0"
+                     style="width:40px;height:40px;">
+                    <i class="bi bi-file-earmark-pdf text-danger fs-5"></i>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="fw-semibold" style="font-size:14px;">Documentation de l'application</div>
+                    <div class="text-secondary" style="font-size:13px;"></div>
+                </div>
+                <a href="assets/Sectronic/Mission2/README.md" target="_blank" class="btn btn-sm btn-outline-secondary">
+                    Voir <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+                        <div class="d-flex align-items-center gap-3 ">
+                <div class="rounded-2 bg-danger bg-opacity-10 d-flex align-items-center justify-content-center flex-shrink-0"
+                     style="width:40px;height:40px;">
+                    <i class="bi bi-file-earmark-pdf text-danger fs-5"></i>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="fw-semibold" style="font-size:14px;">Documentation des futurs modifications à faire</div>
+                    <div class="text-secondary" style="font-size:13px;"></div>
+                </div>
+                <a href="assets/Sectronic/Mission2/TODO.md" target="_blank" class="btn btn-sm btn-outline-secondary">
+                    Voir <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+                    </div>
+    </div>
+
+    <div class="card border shadow-sm mb-5">
+        <div class="card-body p-4">
+            <h2 class="h5 fw-semibold mb-4">
+                <i class="bi bi-image text-primary me-2"></i>Aperçus
+            </h2>
+            <div class="row g-3">
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/Accueil.png" alt="Page d'accueil quand un visiteur arrive"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page d'accueil quand un visiteur arrive</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page d'accueil quand un visiteur arrive</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/Formulaire.png" alt="Formulaire d'enregistrement du visiteur"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Formulaire d'enregistrement du visiteur</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Formulaire d'enregistrement du visiteur</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/consignes.png" alt="Page consignes avec le QR code"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page consignes avec le QR code</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page consignes avec le QR code</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/signature.png" alt="Page de la signature"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page de la signature</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page de la signature</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/confirmation.png" alt="Message de confirmation de l'enregistrement"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Message de confirmation de l'enregistrement</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Message de confirmation de l'enregistrement</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/confirmation depart.png" alt="Pop-up confirmation depart"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Pop-up confirmation depart</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Pop-up confirmation depart</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/evacuation.png" alt="Page d'évacuation"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page d'évacuation</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page d'évacuation</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/Mail evacuation.png" alt="Mail réçu par le directeur en cas d'évacuation"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Mail réçu par le directeur en cas d'évacuation</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Mail réçu par le directeur en cas d'évacuation</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/Historique.png" alt="Page de l'historique"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page de l'historique</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page de l'historique</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/detail signature.png" alt="Page de détail d'une personne enregistrer"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Page de détail d'une personne enregistrer</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Page de détail d'une personne enregistrer</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/structure_application.png" alt="Structure de l'application"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Structure de l'application</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Structure de l'application</p>
+                </div>
+                                <div class="col-md-4">
+                    <div class="rounded-3 overflow-hidden border bg-light" style="aspect-ratio:16/9;">
+                        <img src="assets/Sectronic/Mission2/gitlab.png" alt="Gitlab versionning"
+                             class="w-100 h-100 object-fit-contain p-2 hover-zoom"
+                             style="cursor: pointer;"
+                             onerror="this.parentElement.innerHTML='<div class=\'d-flex flex-column align-items-center justify-content-center h-100 text-secondary\'><i class=\'bi bi-image fs-2 mb-2\'></i><span class=\'small px-2 text-center\'>Gitlab versionning</span></div>'">
+                    </div>
+                    <p class="text-secondary small text-center mt-2 mb-0">Gitlab versionning</p>
+                </div>
+                            </div>
+        </div>
+    </div>
+
+    <div class="d-flex gap-3 mt-2">
+        <a href="stage-sectronic.html" class="btn btn-outline-primary shadow-sm">
+            ← Retour au stage SECTRONIC
+        </a>
+    </div>
+
+</main><footer class='text-center'>
+    <p>&copy; GANGNEUX Hugo - 2026</p>
+
+</footer>        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+    
+</html>

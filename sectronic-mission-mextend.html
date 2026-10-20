@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio-Hugo-GANGNEUX</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Hugo GANGNEUX</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bts-sio.html">BTS SIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projets.html">Projets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="stages.html">Stages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="veille.html">Veille technologique</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="certifications.html">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav><main class="container py-5 mt-5">
+
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-light text-uppercase tracking-widest">Mission 4 – Tests M-EXTEND</h1>
+        <div class="border-top border-primary border-4 w-25 mx-auto mb-3"></div>
+        <div class="d-flex justify-content-center gap-2 flex-wrap">
+            <span class="badge rounded-pill bg-danger bg-opacity-10 text-danger px-3 py-2">Mission 4</span>
+            <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2">Semaine 4</span>
+            <span class="badge rounded-pill bg-primary bg-opacity-10 text-primary px-3 py-2">Tests fonctionnels</span>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-lg-8 mx-auto">
+            <div class="border-start border-primary border-3 ps-4">
+                <h2 class="h5 fw-semibold mb-3">Contexte</h2>
+                <p class="text-secondary lh-lg">
+                    Un collègue du Bureau d'Études a développé un banc de test nommé M-EXTEND, permettant de réaliser des mesures de tension et de courant à l'aide d'un manche équipé de plusieurs boutons. Avant sa mise en service, j'ai été chargé de réaliser une campagne complète de tests fonctionnels afin d'identifier les anomalies et de les documenter pour le développeur.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-5">
+        <div class="col-lg-6">
+            <div class="card h-100 border shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="h5 fw-semibold mb-4">
+                        <i class="bi bi-check2-square text-danger me-2"></i>Périmètre des tests
+                    </h2>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-danger bg-opacity-10 text-danger d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            1                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Gestion de la session utilisateur</div>
+                            <div class="text-secondary" style="font-size:13px;">Vérification des validations sur les champs opérateur et LCT (longueur, caractères, champs obligatoires).</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-danger bg-opacity-10 text-danger d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            2                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Comportement des boutons</div>
+                            <div class="text-secondary" style="font-size:13px;">Tests des appuis simultanés, maintien prolongé et contournements possibles sur le manche du banc.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-danger bg-opacity-10 text-danger d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            3                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Préparation du banc</div>
+                            <div class="text-secondary" style="font-size:13px;">Vérification des champs DRF, variante, température : comportement en cas de valeurs incorrectes.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-danger bg-opacity-10 text-danger d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            4                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Interface utilisateur</div>
+                            <div class="text-secondary" style="font-size:13px;">Détection des défauts d'affichage (titre coupé, étapes trop rapides, éléments masqués).</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start pb-3 mb-3 border-bottom">
+                        <div class="rounded-circle bg-danger bg-opacity-10 text-danger d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            5                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Intégration intranet</div>
+                            <div class="text-secondary" style="font-size:13px;">Contrôle des données affichées : variante, durée, informations de préparation manquantes.</div>
+                        </div>
+                    </div>
+                                        <div class="d-flex gap-3 align-items-start ">
+                        <div class="rounded-circle bg-danger bg-opacity-10 text-danger d-flex align-items-center justify-content-center flex-shrink-0"
+                             style="width:30px;height:30px;font-size:13px;font-weight:500;">
+                            6                        </div>
+                        <div>
+                            <div class="fw-semibold" style="font-size:14px;">Export PDF</div>
+                            <div class="text-secondary" style="font-size:13px;">Vérification de la présence des informations clés et de la mise en page du rapport généré.</div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card h-100 border shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="h5 fw-semibold mb-4">
+                        <i class="bi bi-tools text-danger me-2"></i>Méthodologie & livrables
+                    </h2>
+                    <p class="text-secondary small mb-2 text-uppercase fw-semibold" style="letter-spacing:.05em;">Approche</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge border text-body fw-normal px-3 py-2">Scénarios réels</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">Cas limites & erreurs</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">Classification par sévérité</span>
+                    </div>
+                    <p class="text-secondary small mb-2 text-uppercase fw-semibold" style="letter-spacing:.05em;">Livrables transmis</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge border text-body fw-normal px-3 py-2">Notes brutes de test</span>
+                        <span class="badge border text-body fw-normal px-3 py-2">Rapport structuré par catégorie</span>
+                    </div>
+                    <p class="text-secondary small mb-2 text-uppercase fw-semibold" style="letter-spacing:.05em;">Principales anomalies identifiées</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-danger bg-opacity-10 text-danger fw-normal px-3 py-2">Erreur bloquante sur valeur hors plage</span>
+                        <span class="badge bg-warning bg-opacity-10 text-warning fw-normal px-3 py-2">Appui simultané validant une étape</span>
+                        <span class="badge bg-secondary bg-opacity-10 text-secondary fw-normal px-3 py-2">Données absentes dans l'intranet</span>
+                        <span class="badge bg-secondary bg-opacity-10 text-secondary fw-normal px-3 py-2">Informations manquantes dans le PDF</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex gap-3 mt-2">
+        <a href="stage-sectronic.html" class="btn btn-outline-primary shadow-sm">
+            ← Retour au stage SECTRONIC
+        </a>
+    </div>
+
+</main><footer class='text-center'>
+    <p>&copy; GANGNEUX Hugo - 2026</p>
+
+</footer>        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+    
+</html>

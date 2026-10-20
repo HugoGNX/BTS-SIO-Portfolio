@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="nCPiTbjz6XpdS9Q7EJ0v" name="Page-1">
+    <mxGraphModel dx="1002" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1F1E1D;" value="Schéma réseau — St-Avertin" vertex="1">
+          <mxGeometry height="40" width="650" x="250" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="internet" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Internet / WAN&lt;/b&gt;&lt;br/&gt;130.93.47.44/31 (IP publique)" vertex="1">
+          <mxGeometry height="55" width="280" x="434" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ont" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#0F6E56;fontColor=#085041;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;ONT / Boîtier fibre&lt;/b&gt;&lt;br/&gt;Nokia G-010G-R" vertex="1">
+          <mxGeometry height="55" width="280" x="434" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e_internet_ont" edge="1" parent="1" source="internet" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1D9E75;fontSize=11;" target="ont" value="Fibre">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="box4g" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#5F5E5A;fontColor=#444441;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Box Internet 4G&lt;/b&gt;&lt;br/&gt;Free/Zyxel Freebox Pro" vertex="1">
+          <mxGeometry height="55" width="220" x="790" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mikrotik" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#0F6E56;fontColor=#085041;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Routeur MikroTik hEX RB750Gr3&lt;/b&gt;&lt;br/&gt;LAN1→Fibre · LAN3→LAN Client NAT · LAN4→4G · LAN5→Maintenance" vertex="1">
+          <mxGeometry height="60" width="480" x="334" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ont_mikrotik" edge="1" parent="1" source="ont" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="mikrotik" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_box4g_mikrotik" edge="1" parent="1" source="box4g" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1;dashed=1;dashPattern=5 3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#888780;fontSize=11;" target="mikrotik" value="4G (secours)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="firewall" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#993C1D;fontColor=#712B13;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Firewall Stormshield SNSS-XA10A-101&lt;/b&gt;&lt;br/&gt;192.168.6.1 · MAC 00:0D:B4:27:05:35" vertex="1">
+          <mxGeometry height="60" width="480" x="334" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mikrotik_fw" edge="1" parent="1" source="mikrotik" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="firewall" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="baie_container" parent="1" style="swimlane;startSize=30;fillColor=none;strokeColor=#AAAAAA;strokeWidth=1;dashed=1;dashPattern=8 4;fontStyle=2;fontSize=12;fontColor=#3D3D3A;align=left;spacingLeft=10;" value="Baie serveurs" vertex="1">
+          <mxGeometry height="620" width="1110" x="30" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="sw_tplink" parent="baie_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e0ff;strokeColor=#534AB7;fontColor=#3C3489;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Switch TP-Link TL-SG3428&lt;/b&gt;&lt;br/&gt;192.168.6.66 · 24p Gigabit + 4 SFP" vertex="1">
+          <mxGeometry height="60" width="310" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sw_poe" parent="baie_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e0ff;strokeColor=#534AB7;fontColor=#3C3489;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Switch PoE TP-Link TL-SG2424P&lt;/b&gt;&lt;br/&gt;192.168.1.19 · 24p PoE Gigabit" vertex="1">
+          <mxGeometry height="60" width="310" x="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sw_netgear" parent="baie_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e0ff;strokeColor=#534AB7;fontColor=#3C3489;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Switch NETGEAR GS724T&lt;/b&gt;&lt;br/&gt;192.168.6.65 · 24p Gigabit" vertex="1">
+          <mxGeometry height="60" width="310" x="780" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hp_hyperv" parent="baie_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Serveur HP ProLiant (iLO)&lt;/b&gt;&lt;br/&gt;Hyper-V · VM Contrôleur de Domaine&lt;br/&gt;192.168.6.4 · CZJ72801F6" vertex="1">
+          <mxGeometry height="70" width="310" x="20" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="nas_qnap" parent="baie_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;NAS QNAP TS-432XU&lt;/b&gt;&lt;br/&gt;sectronic-nas-alt&lt;br/&gt;Q18BI02027" vertex="1">
+          <mxGeometry height="70" width="310" x="400" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="beemo" parent="baie_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Appliance sauvegarde Beemo&lt;/b&gt;&lt;br/&gt;192.168.6.56&lt;br/&gt;3C:EC:EF:E8:25:80" vertex="1">
+          <mxGeometry height="70" width="310" x="780" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sw_tplink_hp" edge="1" parent="baie_container" source="sw_tplink" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#378ADD;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="hp_hyperv" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sw_poe_nas" edge="1" parent="baie_container" source="sw_poe" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#378ADD;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nas_qnap" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sw_netgear_beemo" edge="1" parent="baie_container" source="sw_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#378ADD;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="beemo" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onduleur" parent="baie_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#5F5E5A;fontColor=#444441;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Onduleur DELL&lt;/b&gt;&lt;br/&gt;Alimentation secourue" vertex="1">
+          <mxGeometry height="60" width="220" x="20" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="appliance_rack" parent="baie_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#5F5E5A;fontColor=#444441;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Appliance rack (verrouillée)&lt;/b&gt;&lt;br/&gt;HMB162 · Étiquette Sectronic" vertex="1">
+          <mxGeometry height="60" width="280" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="srv_appli" parent="baie_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Serveur application / Dev&lt;/b&gt;&lt;br/&gt;192.168.6.55 · portail Django" vertex="1">
+          <mxGeometry height="60" width="300" x="660" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sw_netgear_appli" edge="1" parent="baie_container" source="sw_netgear" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#378ADD;strokeWidth=1;dashed=1;dashPattern=4 3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="srv_appli" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fw_sw_tplink" edge="1" parent="1" source="firewall" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;strokeWidth=1.5;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sw_tplink" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fw_sw_poe" edge="1" parent="1" source="firewall" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sw_poe" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fw_sw_netgear" edge="1" parent="1" source="firewall" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;strokeWidth=1.5;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sw_netgear" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lan_prod_container" parent="1" style="swimlane;startSize=30;fillColor=none;strokeColor=#AAAAAA;strokeWidth=1;dashed=1;dashPattern=6 3;fontStyle=2;fontSize=12;fontColor=#3D3D3A;align=left;spacingLeft=10;" value="Réseau LAN production · 192.168.6.x" vertex="1">
+          <mxGeometry height="170" width="1110" x="30" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="bus_lan" parent="lan_prod_container" style="line;strokeColor=#5F5E5A;strokeWidth=2;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="1010" x="50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lan_hp" parent="lan_prod_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=11;verticalAlign=middle;" value="&lt;b&gt;HP Hyper-V&lt;/b&gt;&lt;br/&gt;192.168.6.4" vertex="1">
+          <mxGeometry height="50" width="150" x="50" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="lan_nas" parent="lan_prod_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=11;verticalAlign=middle;" value="&lt;b&gt;NAS QNAP&lt;/b&gt;&lt;br/&gt;via sectronic-nas-alt" vertex="1">
+          <mxGeometry height="50" width="150" x="240" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="lan_beemo" parent="lan_prod_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=11;verticalAlign=middle;" value="&lt;b&gt;Beemo&lt;/b&gt;&lt;br/&gt;192.168.6.56" vertex="1">
+          <mxGeometry height="50" width="150" x="430" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="lan_appli" parent="lan_prod_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=11;verticalAlign=middle;" value="&lt;b&gt;Serveur appli&lt;/b&gt;&lt;br/&gt;192.168.6.55" vertex="1">
+          <mxGeometry height="50" width="150" x="620" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="lan_fw" parent="lan_prod_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#993C1D;fontColor=#712B13;fontSize=11;verticalAlign=middle;" value="&lt;b&gt;Firewall&lt;/b&gt;&lt;br/&gt;192.168.6.1" vertex="1">
+          <mxGeometry height="50" width="150" x="870" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="periph_container" parent="1" style="swimlane;startSize=30;fillColor=none;strokeColor=#AAAAAA;strokeWidth=1;dashed=1;dashPattern=8 4;fontStyle=2;fontSize=12;fontColor=#3D3D3A;align=left;spacingLeft=10;" value="Périphériques réseau" vertex="1">
+          <mxGeometry height="140" width="1110" x="30" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="canon" parent="periph_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#854F0B;fontColor=#633806;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Canon iR-ADV C3520&lt;/b&gt;&lt;br/&gt;192.168.6.202 · Photocopieur" vertex="1">
+          <mxGeometry height="60" width="250" x="60" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="bodet" parent="periph_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#854F0B;fontColor=#633806;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;Badgeuse BODET&lt;/b&gt;&lt;br/&gt;192.168.6.40 · 00:0B:84:0A:C7:18" vertex="1">
+          <mxGeometry height="60" width="250" x="390" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="octoprint" parent="periph_container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#854F0B;fontColor=#633806;fontSize=12;verticalAlign=middle;" value="&lt;b&gt;OctoPrint&lt;/b&gt;&lt;br/&gt;192.168.6.67" vertex="1">
+          <mxGeometry height="60" width="250" x="720" y="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
